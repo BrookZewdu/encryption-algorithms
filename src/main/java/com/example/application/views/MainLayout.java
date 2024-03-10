@@ -1,10 +1,12 @@
 package com.example.application.views;
 
+import com.example.application.views.Developer.DeveloperView;
 import com.example.application.views.aes.AESView;
 import com.example.application.views.otp.OTPView;
 import com.example.application.views.tripledes.TripleDESView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
+import com.vaadin.flow.component.charts.model.Side;
 import com.vaadin.flow.component.html.Footer;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.html.H2;
@@ -55,12 +57,18 @@ public class MainLayout extends AppLayout {
         nav.addItem(new SideNavItem("OTP", OTPView.class, LineAwesomeIcon.LOCK_OPEN_SOLID.create()));
         nav.addItem(new SideNavItem("Triple DES", TripleDESView.class, LineAwesomeIcon.UNLOCK_ALT_SOLID.create()));
         nav.addItem(new SideNavItem("AES", AESView.class, LineAwesomeIcon.USER_LOCK_SOLID.create()));
+        // nav.addItem(new SideNavItem("Developer", DeveloperView.class,
+        // LineAwesomeIcon.CODE_SOLID.create()));
 
         return nav;
     }
 
     private Footer createFooter() {
         Footer layout = new Footer();
+        // layout.addClassNames(LumoUtility.Padding.Vertical.L,
+        // LumoUtility.Padding.Horizontal.L);
+        layout.add(new SideNavItem("Developer", DeveloperView.class, LineAwesomeIcon.CODE_SOLID.create()));
+        layout.add("CNS 2024");
 
         return layout;
     }
