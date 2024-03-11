@@ -1,5 +1,5 @@
 FROM maven:3.6.0-jdk-11-slim AS build
-COPY src /home/app/src
+COPY src ./
 COPY pom.xml ./
 RUN mvnw clean package -Pproduction
 
