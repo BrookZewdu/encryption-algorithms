@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/Brook_Z/Documents/encryption-algorithms/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/Brook_Z/Documents/encryption-algorithms/frontend/generated/jar-resources",
+  "staticOutput": "/Users/Brook_Z/Documents/encryption-algorithms/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/Brook_Z/Documents/encryption-algorithms/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/Brook_Z/Documents/encryption-algorithms/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/Brook_Z/Documents/encryption-algorithms/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/Brook_Z/Documents/encryption-algorithms/target/dev-bundle/config",
+  "jarResourcesFolder": "/Users/Brook_Z/Documents/encryption-algorithms/frontend/generated/jar-resources",
+  "themeName": "my-app",
+  "clientServiceWorkerSource": "/Users/Brook_Z/Documents/encryption-algorithms/target/sw.ts",
+  "pwaEnabled": true,
+  "offlineEnabled": true,
+  "offlinePath": "'.'"
+}
